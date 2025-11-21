@@ -12,6 +12,10 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .row {
     width: 100%;
     max-width: 1280px;
@@ -126,12 +130,75 @@ nav {
     color: white;
 }
 
-.btn__menu {
+.btn__menuu {
     display: none;
     background: transparent;
     border: none;
-    transition: all 300ms ease;    
+    transition: all 300ms ease;
 }
+
+/** BUGA BUTTON SECTION **/
+
+.btn__lunk {
+    display: none;
+    background: transparent;
+    font-size: 40px;
+    text-align: center;
+    border: none;
+    color: #6415ff;
+    display: none;       
+}
+
+.menu--open .menu__backdrop {
+    visibility: visible;
+    opacity: 1;   
+}
+
+.menu--open {
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+
+.menu__backdrop {
+    position: absolute;
+    background-color: #242424;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    display: flex;
+    transition: all 300ms ease;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0; 
+}
+
+.btn__menu--close {
+    position: absolute;
+    color: white;    
+}
+
+
+.menu__lunks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__list {
+    padding: 32px 0;
+}
+
+.menu__link {
+    font-size: 40px;
+    color: white;
+}
+
+/** BUGA BUTTON SECTION **/
+
+/** MODAL **/
 
 .btn__menu--svg:hover {
     filter: invert(26%) sepia(94%) saturate(7476%) hue-rotate(261deg) brightness(94%) contrast(115%);
@@ -673,8 +740,7 @@ FEATURES
     font-size: 14px;
     color: #fff;
     font-weight: bold;
-    transition: all 300ms 
-ease;
+    transition: all 300ms ease;
     cursor: pointer;
 }
 
@@ -1262,79 +1328,16 @@ a {
 
 /** SMALL PHONES, TABLETS, LARGE SMARTPHONES **/
 
-@media (max-width: 728px) {
-    .header__container {
-        flex-direction: column;
+@media(max-width: 550px) {
+    .nav__links {
+        display: none;
     }
 
-    h1 {
-        text-align: center;
-        font-size: 30px;
+    .btn__lunk {
+        display: block;
     }
-
-    .header__description--para {
-        text-align: center;
-        font-size: 20px;
-    }
-
-    .header__email {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #features .container {
-        flex-direction: column;        
-    }
-
-    .section__title {        
-        font-size: 20px;
-        justify-content: center;        
-        text-align: center;        
-    }
-
-    .section__para--feature {
-        font-size: 30px;
-        text-align: center;               
-    }
-
-    .section__para--title {
-      margin-bottom: 50px; 
-    }
-
-    #features .row__narrow {    
-    flex-direction: column;
-    align-items: center;
-    }
-
-#quality .container {
-    flex-direction: column;        
-    }
-
-.section__para {
-    text-align: center;
-    font-size: 20px;
-    }
-
-.section__tag {
-    font-size: 20px;
-    justify-content: center;        
-    text-align: center;
-    }
-
-.quality__img--wrapper {
-    margin-top: 12px;     
-    }
-
-#quality .btn {
-    font-size: 20px;
-    justify-content: center;        
-    text-align: center;
 }
 
-#quality .row {
-    flex-direction: column;
-    justify-content: space-between;   
-    align-items: center;
-    }
-
+@media (max-width: 728px) {
+    
 }
