@@ -140,13 +140,11 @@ nav {
 /** BUGA BUTTON SECTION **/
 
 .btn__lunk {
-    display: none;
     background: transparent;
     font-size: 40px;
     text-align: center;
     border: none;
-    color: #6415ff;
-    display: none;       
+    color: #6415ff;          
 }
 
 .menu--open .menu__backdrop {
