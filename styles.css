@@ -178,8 +178,7 @@ nav {
 }
 
 .btn__lunk--close {
-    position: absolute;
-    color: #edf2f7;
+    position: fixed;
     top: 32px;
     right: 32px;    
     background: transparent;
@@ -187,6 +186,9 @@ nav {
     cursor: pointer;
     z-index: 100;
 }
+
+.btn__lunk--close svg 
+{ stroke: white !important; }
 
 .menu__lunks {
     display: flex;
