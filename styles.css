@@ -91,6 +91,10 @@ nav {
     letter-spacing: 0.6px;
 }
 
+.nav__link:hover {
+    text-decoration: #6415ff underline;         
+}
+
 .nav__links {
     display: flex;
     align-items: center;
@@ -128,6 +132,7 @@ nav {
 .nav__link--primary:hover {
     background-color: rgb(80, 17, 204);
     color: white;
+    text-decoration: none;    
 }
 
 .btn__menuu {
@@ -145,6 +150,10 @@ nav {
     text-align: center;
     border: none;
     color: #6415ff;          
+}
+
+.fa-times {
+color: white;
 }
 
 .menu--open .btn__lunk {
