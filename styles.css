@@ -135,7 +135,7 @@ nav {
     text-decoration: none;    
 }
 
-.btn__menuu {
+.btn__menu {
     display: none;
     background: transparent;
     border: none;
@@ -1365,4 +1365,79 @@ a {
 
 @media (max-width: 728px) {
     
+    .header__container {
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .header__email--input {
+    width: 100%;
+    max-width: 100px;
+   }
+
+   #quality .row {
+    width: 100%;
+    max-width: 150px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quality__img {
+    width: 100%;
+    flex-direction: column;    
+}
+
+.steps__description {
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__title {
+    width: 100%;
+    max-width: 320px;
+    font-size: 28px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    margin: 20px 0;
+    letter-spacing: 0.025em;
+}
+
+h1 {
+    font-size: 28px;
+    color: #1a202c;
+    line-height: 1.25;
+}
+
+.section__title {        
+        font-size: 28px;
+        text-align: center;
+        font-weight: 900;
+        color: rgb(36, 62, 99);
+        line-height: 1.5;
+        margin: 20px 0;
+        letter-spacing: 0.025em;
+    }
+
+    #features .row__narrow {
+        width: 100%;
+        max-width: 240px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature__para {
+        width: 100%;
+        max-width: 240px;
+    }
+
+    .header__email--input {
+        width: 100%;
+        max-width: 100px;
+    }
+
+    .header__description--para {
+    width: 100%;
+    max-width: 150px;
+}
 }
