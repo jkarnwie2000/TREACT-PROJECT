@@ -1364,22 +1364,77 @@ a {
 }
 
 @media (max-width: 728px) {
-    
-    .header__container {
+
+.header__container {
     flex-direction: column;
     align-items: center;
-   }
+}
+.header__description--para {
+    margin-bottom: 10px;
+    text-align: center;
+}
 
-   .header__email--input {
-    width: 100%;
-    max-width: 100px;
-   }
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
 
-   #quality .row {
-    width: 100%;
-    max-width: 150px;
+section {
+    padding: 0 32px;
+}
+
+.section__para {
+    font-size: 14px;
+    text-align: center;
+}
+   
+.header__email {
     flex-direction: column;
-    align-items: center;
+    height: auto;
+}
+
+.header__email--btn {
+    width: 100%;
+    line-height: 1.5;
+    padding: 16px 0px;
+    margin: 16px 0px 0px;
+}
+
+.header__customers--title {
+    font-size: 14px;    
+    margin: 48px 25px;
+    align-content: center;    
+    letter-spacing: 0.05em;
+}
+
+.header__customers {
+        padding-right: 0px;
+}
+
+.header__img {
+    margin-top: 50px;
+}
+
+.header__email--input {
+    position: static;
+    padding: 13px 0px 13px 32px;
+    padding-left: 32px;
+    line-height: 1.5;
+}
+
+.header__description, .header__img--wrapper {
+    width: 100%;
+    max-width: 512px;
+    margin: 0 auto;
+}
+
+#quality .row, #values .row {
+    flex-direction: column-reverse;
+}
+
+.quality__description, .quality__img--wrapper, .steps__description, .steps__img--wrapper, .values__description, .values__img, .testimonials__description, .testimonials__img {
+        width: 100%;
+        max-width: 448px;
 }
 
 .quality__img {
@@ -1403,12 +1458,6 @@ a {
     letter-spacing: 0.025em;
 }
 
-h1 {
-    font-size: 28px;
-    color: #1a202c;
-    line-height: 1.25;
-}
-
 .section__title {        
         font-size: 28px;
         text-align: center;
@@ -1417,6 +1466,12 @@ h1 {
         line-height: 1.5;
         margin: 20px 0;
         letter-spacing: 0.025em;
+    }
+
+    .feature__row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     #features .row__narrow {
@@ -1428,16 +1483,7 @@ h1 {
 
     .feature__para {
         width: 100%;
-        max-width: 240px;
+        text-align: center;
     }
-
-    .header__email--input {
-        width: 100%;
-        max-width: 100px;
-    }
-
-    .header__description--para {
-    width: 100%;
-    max-width: 150px;
-}
+    
 }
