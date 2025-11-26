@@ -1486,4 +1486,9 @@ section {
         text-align: center;
     }
     
+    #quality .row, #values .row {
+        flex-direction: column-reverse;
+    }
+
+    
 }
