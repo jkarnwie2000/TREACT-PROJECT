@@ -1496,12 +1496,6 @@ section {
     margin-bottom: 15px;
 }
 
-.quality__img {
-    margin-left: 0;
-    width: 156px;
-    height: 100.4px;   
-}
-
 #steps .row, #testimonials .row {
         flex-direction: column;
     }
@@ -1516,30 +1510,21 @@ section {
 .quality__description {
         margin-right: 0px;
         padding-right: 48px;
-    }
+}
 
 .quality__description, .quality__img--wrapper {
     width: 50%;
 }
-.quality__description {
-    max-width: 576px;
-    margin-right: 64px;
-}
 
 .quality__description, .quality__img--wrapper, .steps__description, .steps__img--wrapper, .values__description, .values__img, .testimonials__description, .testimonials__img {
         width: 100%;
-        max-width: 448px;
+        
     }
 
     .quality__description, .steps__description, .values__description, .testimonials__description {
         padding: 0;
         margin-top: 64px;
         text-align: center;
-    }
-
-    .quality__description {
-        margin-right: 0px;
-        padding-right: 48px;
     }
 
     #steps .row, #testimonials .row {
@@ -1549,6 +1534,11 @@ section {
 
       .quality__description, .steps__description, .values__description, .testimonials__description {
        text-align: center;
+    }
+
+    .quality__description {
+        width: 100%;
+        align-items: center;
     }
 
     .step {
