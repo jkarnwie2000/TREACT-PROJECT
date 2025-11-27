@@ -1424,8 +1424,8 @@ section {
 
 .header__description, .header__img--wrapper {
     width: 100%;
-    max-width: 512px;
-    margin: 0 auto;
+    align-items: center;
+    
 }
 
 #quality .row, #values .row {
@@ -1449,7 +1449,6 @@ section {
 
 .section__title {
     width: 100%;
-    max-width: 320px;
     font-size: 28px;
     font-weight: 900;
     color: rgb(36, 62, 99);
@@ -1469,16 +1468,17 @@ section {
     }
 
     .feature__row {
+        width: 100%;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
     #features .row__narrow {
-        width: 100%;
-        max-width: 240px;
+        width: 100%;      
         flex-direction: column;
         align-items: center;
+        margin-left: 0;
     }
 
     .feature__para {
