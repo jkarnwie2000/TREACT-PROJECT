@@ -1365,7 +1365,12 @@ a {
 
 @media (max-width: 728px) {
 
+.container {
+        padding: 80px 0;
+}
+
 .header__container {
+    margin-left: 28px;
     flex-direction: column;
     align-items: center;
 }
@@ -1402,7 +1407,7 @@ section {
 
 .header__customers--title {
     font-size: 14px;    
-    margin: 48px 25px;
+    margin: 48px 80px;
     align-content: center;    
     letter-spacing: 0.05em;
 }
@@ -1424,8 +1429,7 @@ section {
 
 .header__description, .header__img--wrapper {
     width: 100%;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 #quality .row, #values .row {
@@ -1561,5 +1565,32 @@ section {
         margin-left: 0;
     }
 
+    #values .row {
+        align-items: center;
+    }
+
+    .values__description {
+        align-items: center;
+    }
+
+    .values__list {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .values__list {
+    width: 100%;  
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+
+    .btn {
+        max-width: 240px;
+        align-items: center;
+        text-align: center;
+        line-height: 1.5;
+    }
 
 }
