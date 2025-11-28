@@ -556,11 +556,6 @@ FEATURES
     width: 50%;
 }
 
-.quality__img {
-    margin-left: 30px;
-}
-
-
 .quality__img--wrapper {
     width: 75%;    
     border-radius: 4px;
@@ -1518,6 +1513,10 @@ section {
     width: 50%;
 }
 
+.quality__img {
+    margin-left: 0;
+  }
+
 .quality__description, .quality__img--wrapper, .steps__description, .steps__img--wrapper, .values__description, .values__img, .testimonials__description, .testimonials__img {
         width: 100%;
         
@@ -1534,7 +1533,6 @@ section {
     }
 
 #quality .row {
-    width: 100%;
     align-items: center;
 }
 
