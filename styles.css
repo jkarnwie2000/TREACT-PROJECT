@@ -1576,8 +1576,10 @@ section {
     }
 
     #values .row {
-        align-items: center;
-    }
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
 
     .value__para {
     margin-top: 16px;
@@ -1615,7 +1617,7 @@ section {
     width: 100%;
     padding: 16px;
     max-width: 240px;
-    margin-right: 30px;
+    margin-right: 20px;
     align-items: center;
     text-align: center;
     line-height: 1.5;
