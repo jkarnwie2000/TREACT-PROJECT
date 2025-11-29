@@ -1370,10 +1370,6 @@ h1 {
     text-align: center;
 }
 
-section {
-    padding: 0 32px;
-}
-
 .section__para {
     font-size: 14px;
     text-align: center;
@@ -1414,7 +1410,7 @@ section {
     width: 100%;
     max-width: 440px; 
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 0;
 }
 
 .values__img {   
@@ -1564,10 +1560,6 @@ section {
         text-align: center;
     }
 
-    .step__description {        
-        margin-left: 0;
-    }
-
     #values .row {
     width: 100%;
     padding-left: 0;
@@ -1691,5 +1683,9 @@ align-items: center;
 .footer__bottom {
     flex-direction: column;
     align-items: center;
+}
+
+.footer__copyright {
+    margin: 32px 0px 32px 0px;
 }
 }
